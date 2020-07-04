@@ -1,0 +1,98 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+label {
+    user-select: none;
+    margin     : 0px !important;
+}
+
+.ullist {
+    list-style   : none;
+    margin       : 0;
+    padding      : 0px;
+    margin-bottom: 30px;
+}
+
+.ullist li {
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.bg-gray {
+    background: #e0e0e0
+}
+
+.ullist li>label {
+    cursor : pointer;
+    display: block;
+    padding: 3px 10px;
+}
+
+.ullist li.bg-secondary {
+    color: #fff;
+}
+
+.progress_bar {
+    background   : #f8f9fa;
+    height       : 20px;
+    position     : relative;
+    border       : 2px solid #deaa0f;
+    border-radius: 5px;
+}
+
+.progress_bar>span {
+    display   : block;
+    width     : 50px;
+    background: #ffc107;
+    position  : absolute;
+    left      : 0px;
+    top       : 0px;
+    height    : 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.fw100 {
+    font-weight: 100;
+}
+
+.fw300 {
+    font-weight: 300;
+}
+
+.fw400 {
+    font-weight: 400;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.fw900 {
+    font-weight: 900;
+}
+
+.selected_list {
+    background: #f9f9f9;
+    border    : 1px solid #eee;
+    padding   : 10px;
+
+}
+
+.selected_list>span {
+    font-size    : 12px;
+    background   : #fff6dc;
+    padding      : 2px 5px;
+    border       : 1px solid #ffe7a1;
+    border-radius: 3px;
+    display      : inline-block;
+    margin       : 0 2px 2px 2px;
+
+}
